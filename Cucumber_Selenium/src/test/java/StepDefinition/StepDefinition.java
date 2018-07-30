@@ -18,6 +18,8 @@ public class StepDefinition {
 	@Given("^login app should be available$")
 	public void login_app_should_be_available()  {
 		
+			System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
+		
 			   driver=new FirefoxDriver();
 			   driver.get("https://opensource-demo.orangehrmlive.com/");
 			   
