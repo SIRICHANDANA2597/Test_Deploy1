@@ -18,7 +18,7 @@ public class StepDefinition {
 	@Given("^login app should be available$")
 	public void login_app_should_be_available()  {
 		
-			System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
+			System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 		
 			   driver=new FirefoxDriver();
 			   driver.get("https://opensource-demo.orangehrmlive.com/");
@@ -41,7 +41,7 @@ public class StepDefinition {
 	public void login_should_be_successfull()  {
 		Assert.assertEquals("OrangeHRM", title);
 	    System.out.println("success");
-	    System.out.println("new line added");
+	   // System.out.println("new line added");
 	}
 
 
