@@ -41,7 +41,7 @@ public class StepDefinition {
 	public void login_should_be_successfull()  {
 		Assert.assertEquals("OrangeHRM", title);
 	    System.out.println("success");
-	    System.out.println("new line added");
+	    //System.out.println("new line added");
 	}
 
 
